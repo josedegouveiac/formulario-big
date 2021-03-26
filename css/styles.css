@@ -1,0 +1,245 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0px;
+    margin: 0px;
+    max-height: 1024px;
+    max-width: 1440px;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: #fff;
+}
+
+.bg {
+    background-image: url(../img/Bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1024px;
+    width: 660px;
+}
+
+.container-logo {
+    margin: 60px 0 0 62px;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    position: static;
+    line-height: 40px;
+    color: #25B64C;
+    top: 0px;
+    left: 0px;
+    width: 117px;
+}
+
+.container-logo p {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333F54;
+    font-weight: 500;
+    position: static;
+    margin-top: 56px;
+    line-height: 29px;
+    width: 423px;
+}
+
+.img-hoja img {
+    width: 428.54px;
+    position: relative;
+    height: 380.08px;
+    left: 370px;
+    top: 50px;
+    transform: rotate(-8px);
+}
+
+.img-pizza img {
+    width: 694.86px;
+    position: absolute;
+    height: 733px;
+    left: 60px;
+    left: 20px;
+    top: 152px;
+}
+
+.container-form {
+    margin: 60px 35px;
+    display: block;
+}
+
+.container-form h2 {
+    font-size: 36px;
+    font-family: 'Monserrat', sans-serif;
+    width: 300px;
+    height: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #333F54;
+}
+
+.container-form .p-x {
+    font-size: 16px;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 300;
+    color: #000;
+    line-height: 40px;
+    width: 213px;
+    height: 40px;
+}
+
+.container-form a {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(99, 223, 223);
+}
+
+.container-form .p-google {
+    font-size: 16px;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 300;
+    width: 285px;
+    height: 48px;
+    color: #000;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #B8B8B8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.img-vector {
+    position: relative;
+    top: 28px;
+    left: 40px;
+    /* naranja */
+}
+
+.vector-1 {
+    position: relative;
+    top: 30.4px;
+    left: 40.1px;
+    /* azul */
+}
+
+.vector-2 {
+    position: relative;
+    top: 32px;
+    left: 20px;
+    /* verde */
+}
+
+.vector-3 {
+    position: relative;
+    top: 23px;
+    left: 2px;
+    /* rojo */
+}
+
+.p-google i {
+    color: rgb(247, 117, 70);
+    margin-right: 4px;
+}
+
+.or-linea {
+    display: flex;
+    justify-content: space-around;
+    width: 285px;
+}
+
+.or-linea img {
+    width: 120px;
+    height: 1px;
+    margin-top: 5px;
+}
+
+.or-linea p {
+    font-size: 12px;
+    color: #b8b8b8;
+    margin-bottom: 38px;
+}
+
+.contacto-info {
+    display: block;
+}
+
+.form-box h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333F54;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+.form-box input {
+    width: 285px;
+    height: 48px;
+    margin-bottom: 16px;
+    border: 1px solid #b8b8b8;
+    border-radius: 3px;
+    outline: none;
+    color: #333F54;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-left: 8px;
+}
+
+.form-box p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #000;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+
+.form-box img {
+    position: relative;
+    width: 52px;
+    height: 4px;
+    margin-bottom: 10px;
+}
+
+.btn-form {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #fff;
+    background: #25b64c;
+    position: absolute;
+    height: 48px;
+    width: 285px;
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    transition: all ease-in-out 1s;
+}
+
+.btn-form:hover {
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.p-footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: normal;
+    line-height: 20px;
+    margin-top: 96px;
+    width: 60%;
+}
